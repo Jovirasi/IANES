@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Pagamento</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style_pagamentos.css">
+</head>
+
+<body>
+
+  <!------------------------------------>
+  <!------HEADER logo links button------>
+  <!------------------------------------>
+  <header>
+    <section class="LogoHeaderFooter"></section>
+    <button><a href="login.html">Login</a></button>
+    <label><a href="sobre.html">Sobre</a></label>
+    <label><a href="#">Contato</a></label>
+  </header>
+
+  <!------------------------------------>
+  <!--MAIN com todo o conteúdo do site-->
+  <!------------------------------------>
+  <main>
+
+    <section id="sectionTop">Pagamento</section>
+
+    </br>
+
+    <section class="main-form">
+      <div class="main-form__mask--input">
+        <label>Digite o seu nome</label>
+        <input type="text" name="nome" id="nome">
+      </div>
+      <div class="main-form__mask--input">
+        <label>CPF: 000.000.000-00</label>
+        <input type="text" data-js="cpf" autofocus />
+      </div>
+      <div class="main-form__mask--input">
+        <label>E-MAIL</label>
+        <input type="text" data-js="cnpj" />
+      </div>
+      <div class="main-form__mask--input">
+        <label>Telefone: (00) 00000-0000</label>
+        <input type="text" data-js="phone" />
+      </div>
+      <div class="main-form__mask--input">
+        <label>CEP: 00000-000</label>
+        <input type="text" data-js="cep" />
+      </div>
+      <div class="main-form__mask--input">
+        <label>CARTÃO DE CRÉDITO: 0000-0000-0000-0000</label>
+        <input type="text" data-js="cartao" />
+        </br></br>
+        <button type="submit" id="send" name="send"> ENVIAR </button>
+      </div>
+
+      </br> </br>
+      <div>
+        <img src="css/img/bandeiras.png" id="bandeiras">
+      </div>
+
+  </main>
+  <!-------------------------->
+  <!-----------FOOTER--------->
+  <!-------------------------->
+  <footer><br>
+    <section class="LogoHeaderFooter"></section>
+    <section>
+      <h5>SUPORTE<br>iatcontato@iatech.com.br</h5>
+      <br>
+      <h6>&copy; IANES TECH Todos os direitos reservados - 2022</h6>
+    </section>
+    <section id="seguroFooter"></section>
+  </footer>
+</body>
+
+</html>
